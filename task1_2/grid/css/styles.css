@@ -46,7 +46,7 @@ footer {
 }
 
 @media (max-width: 720px) {
-  #grid-container {
+  .grid-container {
       grid-template-areas: 
           "header"
           "nav"

@@ -35,7 +35,7 @@ footer {
   grid-area: footer;
 }
 
-#grid-container {
+.grid-container {
   display: grid;
   grid-template-areas:
       "header header header"
@@ -46,7 +46,7 @@ footer {
 }
 
 @media (max-width: 720px) {
-  #grid-container {
+  .grid-container {
       grid-template-areas: 
           "header"
           "nav"

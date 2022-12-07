@@ -40,8 +40,9 @@ p {
 .middle-container {
   display: flex;
   flex-direction: row;
-  height: 500px;
-
+  flex: 0 1 500px;
+  /* min-height: 500px;
+  max-height: fit-content; */
 }
 
 .lower-container {
@@ -51,8 +52,8 @@ p {
 }
 
 .body-container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 720px) {

@@ -12,6 +12,10 @@
 /* Let's default this puppy out
 -------------------------------------------------------------------------------*/
 
+body {
+	margin: 0;
+}
+
 article, aside, figure, footer, header, nav, section, details, summary {display: block;}
 
 /* Handle box-sizing while better addressing child elements:

@@ -43,6 +43,7 @@ footer {
       "footer footer footer";
   grid-template-columns: 1fr 7fr 1fr;
   grid-template-rows: 1fr 8fr 1fr;
+  min-height: 100vh;
 }
 
 @media (max-width: 720px) {

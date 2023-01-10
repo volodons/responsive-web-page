@@ -42,7 +42,7 @@ footer {
       "nav article aside"
       "footer footer footer";
   grid-template-columns: 1fr 7fr 1fr;
-  grid-template-rows: 1fr 8fr 1fr;
+  grid-template-rows: auto 1fr auto;
   min-height: 100vh;
 }
 
@@ -55,7 +55,7 @@ footer {
           "aside"
           "footer";
       grid-template-columns: 1fr;
-      grid-template-rows: 2fr 1fr 6fr 1fr 2fr;
+      grid-template-rows: auto auto 1fr auto auto;
   }
   nav,
   article,

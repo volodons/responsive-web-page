@@ -33,6 +33,7 @@ footer {
   background-color: rgba(102,153,0,255);
   text-align: center;
   grid-area: footer;
+  position: sticky;
 }
 
 .grid-container {
@@ -61,5 +62,8 @@ footer {
   article,
   aside {
       padding: 2.5% 5%;
+  }
+  footer {
+    position: sticky;
   }    
 }

@@ -62,8 +62,5 @@ footer {
   article,
   aside {
       padding: 2.5% 5%;
-  }
-  footer {
-    position: sticky;
-  }    
+  }  
 }

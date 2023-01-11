@@ -38,11 +38,8 @@ p {
 }
 
 .middle-container {
-  display: flex;
-  flex-direction: row;
-  flex: 0 1 500px;
-  /* min-height: 500px;
-  max-height: fit-content; */
+  flex: 1;
+  justify-content: space-between;
 }
 
 .lower-container {
@@ -53,9 +50,6 @@ p {
 }
 
 .wrapper {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
   min-height: 100vh;
   min-width: 100vw;
 }

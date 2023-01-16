@@ -12,7 +12,7 @@ nav {
 
 article {
   padding-left: 1%;    
-  flex: 0 1 80%;
+  flex: 1;
 }
 
 aside {
@@ -38,6 +38,7 @@ p {
 }
 
 .middle-container {
+  display: flex;
   flex: 1;
   justify-content: space-between;
 }
@@ -58,6 +59,9 @@ html {
 .wrapper {
   min-height: 100vh;
   min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 @media (max-width: 720px) {
